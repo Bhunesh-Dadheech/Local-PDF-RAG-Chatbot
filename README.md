@@ -31,7 +31,7 @@ cd local-pdf-rag
 '''bash
 pip install pymupdf sentence-transformers chromadb openai
 
-**Configuration & Usage:**
+##**Configuration & Usage:**
 
 1.Place the PDF you want to query in the project directory.
 2.Open PDF_Chatbot.py and configure the variables at the bottom of the script:
