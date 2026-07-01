@@ -26,3 +26,21 @@ The pipeline follows the classic 5-step RAG architecture:
 ```bash
 git clone [https://github.com/yourusername/local-pdf-rag.git](https://github.com/yourusername/local-pdf-rag.git)
 cd local-pdf-rag
+
+2.Install the required dependencies:
+'''bash
+pip install pymupdf sentence-transformers chromadb openai
+
+**Configuration & Usage:**
+
+1.Place the PDF you want to query in the project directory.
+2.Open PDF_Chatbot.py and configure the variables at the bottom of the script:
+
+'''python
+PDF_FILE = "your_document.pdf" 
+OPENAI_API_KEY = "your-api-key-here" 
+USER_QUESTION = "Ask a highly specific question about your PDF here."
+
+3. Run the script:
+'''bash
+python PDF_Chatbot.py
